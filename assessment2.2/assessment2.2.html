@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Bebas Neue"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .parent {
+        height: 936px;
+        width: 1611px;
+        background-color: #1e1f2f;
+        position: relative;
+        z-index: 0;
+      }
+
+      .child {
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        position: absolute;
+      }
+
+      .master-slider {
+        height: 329px;
+        width: 814px;
+        top: 88px;
+        background-color: aqua;
+        position: absolute;
+        z-index: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="parent">
+      <div
+        style="
+          box-sizing: border-box;
+
+          position: absolute;
+          width: 504px;
+          height: 618px;
+          left: 957px;
+          top: 166px;
+          z-index: 1;
+
+          border: 60px solid #ffffff;
+        "
+      ></div>
+      <div
+        style="
+          box-sizing: border-box;
+
+          position: absolute;
+          width: 240px;
+          height: 240px;
+          left: 1089px;
+          top: 305px;
+          z-index: 1;
+
+          /* $color-primary-base */
+
+          border: 40px solid #e82c4f;
+        "
+      ></div>
+      <div
+        style="
+          box-sizing: border-box;
+
+          position: absolute;
+          width: 80px;
+          height: 80px;
+          left: 1169px;
+          top: 385px;
+          z-index: 1;
+
+          border: 20px solid #ffffff;
+        "
+      ></div>
+
+      <div
+        style="
+          box-sizing: border-box;
+
+          position: absolute;
+          width: 80px;
+          height: 80px;
+          left: 1089px;
+          top: 585px;
+          z-index: 1;
+
+          border: 20px solid #3256a1;
+        "
+      ></div>
+
+      <div
+        style="
+          box-sizing: border-box;
+
+          position: absolute;
+          width: 80px;
+          height: 80px;
+          left: 1249px;
+          top: 585px;
+          z-index: 1;
+
+          border: 20px solid #ffffff;
+        "
+      ></div>
+
+      <div
+        style="
+          box-sizing: border-box;
+
+          position: absolute;
+          width: 558px;
+          height: 644px;
+          left: 1169px;
+          top: -179px;
+          z-index: 0;
+
+          border: 60px solid #48596d;
+        "
+      ></div>
+
+      <div
+        style="
+          box-sizing: border-box;
+
+          position: absolute;
+          width: 558px;
+          height: 644px;
+          left: 691px;
+          top: 385px;
+          z-index: -1;
+
+          border: 60px solid #2d2f48;
+        "
+      ></div>
+
+      <div
+        style="
+          position: absolute;
+          width: 800px;
+          height: 400px;
+          left: 130px;
+          top: 301px;
+
+          font-family: 'Bebas Neue';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 156px;
+          line-height: 93.5%;
+          /* or 146px */
+
+          display: flex;
+          align-items: center;
+
+          /* $color-font-white */
+
+          color: #ffffff;
+        "
+      >
+        LOREM IPSUM NEQUE PORRO</div
+      >
+
+      <div
+        style="
+          position: absolute;
+          width: 331px;
+          height: 96px;
+          left: 261.54px;
+          top: 125px;
+
+          font-family: 'Bebas Neue';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 96px;
+          line-height: 128%;
+          /* or 123px */
+
+          display: flex;
+          align-items: center;
+
+          /* $color-font-white */
+
+          color: #ffffff;
+        "
+      >
+        WARMUPS</div
+      >
+
+      <div
+        style="
+          position: absolute;
+          width: 31.06px;
+          height: 27.42px;
+          left: 130px;
+          top: 125px;
+          left: 130px;
+
+          background: #ffffff;
+          transform: matrix(1, 0, 0, -1, 0, 0);
+        "
+      ></div>
+
+      <div
+        style="
+          position: absolute;
+          width: 60.47px;
+          height: 68.55px;
+          left: 161.07px;
+          top: 152.45px;
+
+          /* $color-primary-base */
+
+          background: #e82c4f;
+          transform: matrix(1, 0, 0, -1, 0, 0);
+        "
+      ></div>
+
+      <div
+        style="
+          background-image: url('r.png');
+          background-size: cover;
+          position: absolute;
+          width: 28.31px;
+          height: 33.37px;
+          left: 177.81px;
+          top: 170.04px;
+        "
+      ></div>
+
+      <div
+        style="
+          position: absolute;
+          top: 789px;
+          left: 550px;
+          width: 196px;
+          height: 48px;
+
+          font-family: 'Bebas Neue';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 64px;
+          line-height: 40px;
+          /* or 62% */
+
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+
+          /* $color-font-white */
+
+          color: #ffffff;
+
+          /* Inside auto layout */
+
+          flex: none;
+          order: 1;
+          align-self: stretch;
+          flex-grow: 0;
+        "
+        >20min</div
+      >
+
+      <div
+        style="
+          background-image: url('clock.png');
+          background-size: cover;
+          position: absolute;
+          top: 793px;
+          left: 484px;
+
+          z-index: 5;
+          height: 40px;
+          width: 40px;
+        "
+      ></div>
+
+      <div
+        style="
+          position: absolute;
+          top: 789px;
+          left: 206px;
+          width: 196px;
+          height: 48px;
+
+          font-family: 'Bebas Neue';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 64px;
+          line-height: 40px;
+          /* or 62% */
+
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+
+          /* $color-font-white */
+
+          color: #ffffff;
+
+          /* Inside auto layout */
+
+          flex: none;
+          order: 1;
+          align-self: stretch;
+          flex-grow: 0;
+        "
+        >10 mAx.</div
+      >
+
+      <div
+        style="
+          background-image: url('human.png');
+          background-size: cover;
+          position: absolute;
+          top: 796px;
+          left: 140px;
+
+          z-index: 5;
+          height: 34px;
+          width: 43.94px;
+        "
+      ></div>
+    </div>
+  </body>
+</html>
